@@ -40,7 +40,7 @@
   height: 100%;
   width: 100%;
   background: white;
-  color: #03446A;
+  color: #abe1fd;
   text-align: center;
   font-size: 60px;
   display: flex;
@@ -52,11 +52,11 @@
 }
 
 .back {
-  background: #03446A;
+  background: #abe1fd;
   color: white;
   transform: rotateY( 180deg );
 }
 
 .Card.found .back {
-	background: yellow;
+	background: #adddcf;
 }
