@@ -1,0 +1,30 @@
+.Logo {
+	font-family: 'Chewy', cursive;
+	font-size: 7rem;
+	letter-spacing: -.5rem;
+	color: #f0e0a2;
+	animation: heartbeat 1s infinite alternate;
+	margin-bottom: 3rem;
+}
+
+span:nth-child(5n+1) {
+	color: #fed1be;
+}
+
+span:nth-child(5n+2) {
+	color: #adddcf;
+}
+
+span:nth-child(5n+3) {
+	color: #abe1fd;
+}
+
+span:nth-child(5n+4) {
+	color: #bfb1d5;
+}
+
+.Logo__emoji {
+	font-size: 1.5rem;
+	text-align: center;
+	letter-spacing: 1rem;
+}

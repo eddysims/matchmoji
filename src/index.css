@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy|Slabo+27px');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Slabo 27px', serif;
+  background: radial-gradient(#fef8f5 15%, rgba(0,0,0,0) 16%), radial-gradient(#f4fbfe 15%, rgba(0,0,0,0) 16%), #fff;
+    background-position: 0 0, 30px 30px;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: 60px 60px;
+}
+
+.animateSpin {
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  transform-origin: center center;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes heartbeat {
+  to {
+    transform: scale(1.1)
+	}
+}
