@@ -1,10 +1,18 @@
 .Logo {
 	font-family: 'Chewy', cursive;
-	font-size: 7rem;
-	letter-spacing: -.5rem;
+	font-size: 4rem;
+	letter-spacing: -.075em;
 	color: #f0e0a2;
 	animation: heartbeat 1s infinite alternate;
-	margin-bottom: 3rem;
+	margin-bottom: 1.5rem;
+	transition: font-size 300ms;
+}
+
+@media (min-width: 640px) {
+	.Logo {
+		font-size: 7rem;
+		margin-bottom: 3rem;
+	}
 }
 
 span:nth-child(5n+1) {

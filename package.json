@@ -2,6 +2,7 @@
   "name": "emojimatch",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://edeesims.github.io/matchmoji/",
   "dependencies": {
     "gh-pages": "^2.0.0",
     "random-emoji": "^1.0.2",
