@@ -7,6 +7,12 @@
     text-align: center;
 }
 
+form {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
 
 button {
     margin: 1rem auto;

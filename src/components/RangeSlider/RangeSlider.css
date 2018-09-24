@@ -1,0 +1,104 @@
+.RangeSlider {
+    display: block;
+    margin: 0 0 1rem;
+    width: 100%;
+    position: relative;
+}
+
+.RangeSlider .RangeSlider__output {
+    position: absolute;
+    background: white;
+    border: 2px solid #f0e0a2;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-weight: 800;
+    font-size: .9375rem;
+    border-radius: 4px;
+    margin: -3rem 0 0 -8px;
+}
+
+.RangeSlider .RangeSlider__output .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #f0e0a2;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+[type='range'] {
+    appearance: none;
+    background: transparent;
+    width: 100%;
+}
+
+[type='range']::-webkit-slider-thumb {
+    appearance: none;
+}
+
+[type='range']:focus {
+    outline: none;
+}
+
+[type='range']::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+    cursor: pointer;
+    width: 100%;
+}
+
+[type='range']::-webkit-slider-thumb {
+    appearance: none;
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    background: #f0e0a2;
+    cursor: pointer;
+    margin-top: -13px;
+}
+
+[type='range']::-moz-range-thumb {
+    appearance: none;
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    background: #f0e0a2;
+    cursor: pointer;
+    margin-top: -13px;
+}
+
+[type='range']::-ms-thumb {
+    appearance: none;
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    background: #f0e0a2;
+    cursor: pointer;
+    margin-top: -13px;
+}
+
+[type='range']::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: #f0e0a2;
+}
+
+[type='range']::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: #f0e0a2;
+}
+
+[type='range']::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: #f0e0a2;
+}
