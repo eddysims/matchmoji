@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import Welcome from './components/Welcome/Welcome';
 import Cards from './components/Cards/Cards';
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-126478801-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 var randomEmoji = require('random-emoji');
 
